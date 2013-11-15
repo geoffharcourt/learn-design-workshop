@@ -12,6 +12,7 @@ body {
 header.top-bar {
   @include outer-container;
   background: #444;
+  @include linear-gradient(lighten($charcoal, 10), $charcoal);
   color: #FFF;
   height: 80px;
   letter-spacing: 4px;
