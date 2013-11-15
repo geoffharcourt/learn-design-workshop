@@ -1,6 +1,11 @@
 body {
   position: relative;
   font-family: $base-font-family;
+  font-size: 1.0em;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
 
   section.container {
     @include outer-container;
